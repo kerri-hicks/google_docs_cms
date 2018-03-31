@@ -32,8 +32,8 @@
     $contents = preg_replace("/<link.*?>/", "", $contents) ;
     $contents = preg_replace("/<style.*?<\/style>/s", "", $contents) ;
     $contents = preg_replace("/<title.*?<\/title>/", "", $contents) ;
-	$contents = preg_replace("/<div id\=\"footer.*?<\/div>/", "", $contents) ;
-	$contents = preg_replace("/<\/body><\/html>/", "", $contents) ;
+    $contents = preg_replace("/<div id\=\"footer.*?<\/div>/", "", $contents) ;
+    $contents = preg_replace("/<\/body><\/html>/", "", $contents) ;
 ?>
 
 <!DOCTYPE html> 
